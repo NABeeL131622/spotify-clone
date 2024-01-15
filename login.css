@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(to top,#000000,#2c2c2c) ;
+}
+
+
+.spotify-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+
+.logo-and-heading{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color:#ffffff;
+}
+
+.spotify-logo .logo-and-heading img{
+    height: 50px;
+    width: 50px;
+}
+
+.spotify-logo .logo-and-heading h2:hover{
+    cursor:default;
+}
+
+.details-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: #000000;
+    width: fit-content;
+    padding: 30px 100px;
+    border-radius: 10px;
+    width: 625px;
+}
+
+.details-container h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.details-container .login-options button img{
+    height: 25px;
+    width: 25px;
+}
+
+.details-container .login-options{
+    display: block !important;
+    margin-left:150px;
+    margin-top: 50px;
+}
+
+.details-container .login-options button{
+    width: 325px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.details-container .login-options button:hover,
+.details-container .login-options button:active,
+.details-container .login-options button:focus{
+    border-color: #ffffff;
+}
+
+.phone-number{
+    text-align: center;
+    padding-right: 0px !important;
+}
+
+.details-container hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: rgb(74, 74, 74);
+}
+
+.username-password{
+    margin-left: 150px;
+}
+
+.username-password label{
+    color: #ffffff;
+    font-size: small;
+}
+
+.username-password input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    width: 300px;
+    background-color: rgb(28, 28, 28);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.details-container .username-password p{
+    color: #ffffff;
+    font-size: small;
+}
+
+.details-container .username-password button{
+    margin-left: 10px;
+    margin-right: 165px;
+    width: 300px;
+    padding: 15px 0px;
+    background-color: rgb(60, 139, 60);
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.details-container .username-password button:hover{
+    margin-left: 0px;
+    margin-right: 155px;
+    width: 320px;
+}
+
+.details-container .username-password a{
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+.details-container p,a{
+    color: #ffffff;
+}
+
+a:hover,a:active,a:focus{
+    color: green;
+}
+
+.username-password a:hover{
+    color: green;
+}
